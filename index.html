@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Treats Bakery</title>
+<style>
+  body {
+    background: linear-gradient(45deg, #ffe5ec 25%, #fff1d8 25%, #fff1d8 50%, #ffe5ec 50%, #ffe5ec 75%, #fff1d8 75%, #fff1d8 100%);
+    background-size: 56.57px 56.57px;
+    font-family: 'Arial', sans-serif;
+  }
+  .header, .footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #ffd5e5;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin: 0 10px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+  }
+  .order-online {
+    background-color: #fa6400; /* Updated for better contrast */
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  .featured {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .featured img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .footer {
+    background-color: #ffd5e5;
+    margin-top: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+</style>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Our Story</a></li>
+        <li><a href="#">Visit Us</a></li>
+      </ul>
+      <a href="#" class="order-online">Order Online</a>
+    </nav>
+  </header>
+  <main>
+    <div class="featured">
+      <div><img src="baked-goods1.jpg" alt="Featured Baked Good 1"><p>Delicious Cupcakes</p></div>
+      <div><img src="baked-goods2.jpg" alt="Featured Baked Good 2"><p>Seasonal Fruit Pies</p></div>
+      <div><img src="baked-goods3.jpg" alt="Featured Baked Good 3"><p>Fresh Croissants</p></div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>Contact us at email@example.com | Visit us!</p>
+    <p>123 Bakery Lane, Sweetstown, CA</p>
+    <form>
+      <label for="emailSubscription">Subscribe for special offers:</label>
+      <input type="email" id="emailSubscription" name="emailSubscription" placeholder="Your email">
+      <button type="submit">Subscribe</button>
+    </form>
+  </footer>
+<script>
+// Your JavaScript for interactive features here
+</script>
+</body>
+</html>
